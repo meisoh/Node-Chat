@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: salmon;
+    background-color: black;
+}
+
+main{
+    width: 450px;
+    margin: 20px auto;
+    padding: 2em;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input[type=text]{
+    border: solid 1px salmon;
+    padding: .5em;
+    font-size: 1em;
+}
+
+button{
+    padding: .5em;
+    background-color: salmon;
+    border: solid 1px white;
+    display: inline-block;
+}
+
+form{
+    border-top: 1px solid gray;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#one {
+    width: 50px;
+}
+
+#two {
+    width: 200px;
+}
+
+#messages {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+#messages li {
+    padding:5px 10px;
+    background: #ddd;
+}
+
+#messages li:nth-child(odd) {
+    background: #eee;  
+    /*nth-child(odd) -> make alternating colours*/
+}

@@ -1,0 +1,26 @@
+<!--<h1> hello world</h1>-->
+<!--
+<p> Paragraph </p>
+<ul>
+    <li> list items </li> 
+</ul>
+-->
+<link rel = "stylesheet" href="style.css">
+
+
+<main>
+    <ol id = "messages"> 
+    </ol>
+    <form>
+        <input id = "one" type = "text"> 
+        <input id = "two" type = "text"> 
+        <button> Send </button>
+    </form>
+</main>
+
+
+<!-- have to place jquery at the end because form tag in app.js grabs info from main function-->
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<!--<script src="https://cdn.socket.io/socket.io-1.5.0.js"></script>-->
+<script src="/socket.io/socket.io.js"></script>
+<script src="app.js"></script>
